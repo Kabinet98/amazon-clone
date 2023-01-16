@@ -1,0 +1,9 @@
+.products {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 7px;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(204,204,204,.1);
+}

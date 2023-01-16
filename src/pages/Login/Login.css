@@ -1,0 +1,55 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:1px solid red;
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    height: 20rem;
+
+}
+.logo{
+    width: 15rem;
+}
+.form_header{
+    font-size: 2em;
+}
+
+#email_or_phoneNumber, .password{
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: lighter;
+    outline-color: #feb14b;
+    
+}
+.signin, .signup{
+    padding: 10px;
+    background-color: #feb14b;
+    border:none;
+    font-size: 1.05em;
+    border-radius:7px;
+    color: rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+.first_account_label{
+    font-size: .8em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    
+    .login_form{
+        width: 90vw;
+   
+    }
+}
